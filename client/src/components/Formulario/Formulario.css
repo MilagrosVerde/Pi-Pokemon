@@ -1,0 +1,130 @@
+.paginaformulario {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.pikachumensajedos{
+    margin-top: 300px;
+    margin-bottom: 0px;
+}
+
+.formulariotodo{
+    background-color: rgba(230, 182, 182, 0.626);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-right: 200px
+
+
+}
+.tituloform{
+    background-color: rgba(223, 154, 154, 0.908);
+    font-size: 50px;
+    color: rgb(158, 29, 29);
+    width: 100%;
+    margin-top: 0px;
+    height: 100px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.grillageneral{
+
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+   
+}
+
+
+.nombreformulario {
+ 
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grillageneral div {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 25px;
+
+
+}
+.inputNombre{
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+ input{
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+
+.inputTipo {
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.crear{
+    background-color: rgba(223, 154, 154, 0.908);
+    color: rgb(158, 29, 29);
+    width: 30%;
+    height: 80px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 40px;
+    margin-left: 350px;
+    cursor: pointer;
+
+}
+.tiposformulario{
+    display: flex;
+}
+.tiposformulario2{
+    margin-top: 0px;
+
+    background-color: blue;
+
+
+}
+.nombretipoformulario{
+    width: 500px; 
+    padding-top: 0px;
+}
+.nombretipoformulario p{
+    font-size: 20px;
+    margin-top: 0px;
+   
+}
+.mensajesperando{
+    
+    margin-left: 345px;
+}

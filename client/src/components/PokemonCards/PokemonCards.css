@@ -1,0 +1,33 @@
+.PokemonCards-contenedor {
+    padding-top: 90px;
+    width: 100%;
+    align-items:center;
+    display: flex;
+    flex-direction: column; 
+
+}
+
+.PokemonCards > div {
+    height: 100%; 
+    transform: translateY(-2px);
+    box-shadow: rgba(0, 0, 0, 0.05) 5px 5px 5px;
+    transition: .2s;
+}
+.PokemonCards {
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    row-gap: 45px;
+    justify-content: space-around;
+    transform: translateY(0px);
+    box-shadow: rgba(0, 0, 0, 0.00) 0px 0px 0px;
+    transition: .2s;
+    text-decoration: none;
+
+}
+.PokemonCards-paginado h3{
+    font-size: 30px;
+    color: rgb(114, 107, 107);
+    padding-top: 0px;
+}

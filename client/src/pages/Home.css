@@ -1,0 +1,13 @@
+.Home {
+    
+    padding-top: 140px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(27, 27, 172);
+
+    
+  
+}

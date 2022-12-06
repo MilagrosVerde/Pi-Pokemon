@@ -1,0 +1,24 @@
+.Searcher-buscador{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px
+;
+}
+
+.inputClient{
+    width: 80%;
+    height: 40px;
+    border-radius: 22px;
+    padding-top: 15px;
+    cursor: pointer;
+    margin-right: 15px;
+    font-size: 30px;
+}
+.Searcher-carita {
+    height: 60px;
+    width: 40px;
+    border-radius: 100px;
+    cursor: pointer;
+}

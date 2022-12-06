@@ -1,0 +1,38 @@
+
+.SearcherBar{
+    display: -ms-inline-grid;
+    display: -moz-inline-grid;
+    display: inline-grid;
+    grid-template-columns: [c0] 100%;
+    grid-template-rows: [f0] 100%;
+    width: 100%;
+    height: 400px;
+}
+
+.SearcherBar > * {
+    grid-column: c0;
+    grid-row: f0;
+    width: 100%;
+    height: 100%;
+}
+.SearcherBar-fondo{
+    padding-top: 95px;
+    
+    z-index: 0;
+}
+.SearcherBar-contenido{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 95px;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.SearcherBar-texto{
+    font-size: 45px;
+    color: white;
+    font-weight: 630;
+    width: 50%;
+
+}
